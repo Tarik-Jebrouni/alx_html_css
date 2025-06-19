@@ -1,0 +1,2447 @@
+.school-page-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.school-page-school-page {
+  width: 100%;
+  height: 3718px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.school-page-part5footer {
+  top: 3469px;
+  left: 0px;
+  width: 1440px;
+  height: 249px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-background1 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 249px;
+  position: absolute;
+}
+ 
+.school-page-logo1 {
+  top: 95px;
+  left: 165px;
+  width: 169px;
+  height: 30px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text10 {
+  top: 6px;
+  left: 55px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Coiny;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-smile1 {
+  top: 0.02319999970495701px;
+  left: 0.5922138690948486px;
+  width: 36.38834762573242px;
+  height: 29.46099090576172px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-path10 {
+  top: 0px;
+  left: 4.402585983276367px;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+}
+ 
+.school-page-path11 {
+  top: 0px;
+  left: 23.11778450012207px;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+}
+ 
+.school-page-path12 {
+  top: 20.661460876464844px;
+  left: 0px;
+  width: 36px;
+  height: 9px;
+  position: absolute;
+}
+ 
+.school-page-text11 {
+  top: 195px;
+  left: 672px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  opacity: 0.35;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-socialicons {
+  top: 90px;
+  left: 1070px;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-instagram {
+  top: 0px;
+  left: 100px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-combined-shape1 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-combined-shape2 {
+  top: 8.439682006835938px;
+  left: 8.44234848022461px;
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.school-page-shape {
+  top: 12.333389282226562px;
+  left: 12.33405590057373px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+ 
+.school-page-twitter {
+  top: 0px;
+  left: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-combined-shape3 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-facebook {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-combined-shape4 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-part4faq {
+  top: 2678px;
+  left: 249px;
+  width: 920px;
+  height: 707px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text12 {
+  left: 407px;
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Light;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-q1 {
+  top: 149px;
+  left: 0px;
+  width: 350px;
+  height: 242px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text13 {
+  top: 50px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text14 {
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-q3 {
+  top: 465px;
+  left: 0px;
+  width: 350px;
+  height: 242px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text15 {
+  top: 50px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text16 {
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-q2 {
+  top: 149px;
+  left: 570px;
+  width: 350px;
+  height: 242px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text17 {
+  top: 50px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text18 {
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-q4 {
+  top: 465px;
+  left: 570px;
+  width: 350px;
+  height: 242px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text19 {
+  top: 50px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 350px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text20 {
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-part3freemembership {
+  top: 2109px;
+  left: 0px;
+  width: 1440px;
+  height: 502px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-background2 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 502px;
+  position: absolute;
+}
+ 
+.school-page-text21 {
+  top: 70px;
+  left: 617px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text22 {
+  color: rgba(193, 112, 255, 1);
+}
+ 
+.school-page-text23 {
+  font-weight: 700;
+}
+ 
+.school-page-button1 {
+  top: 406px;
+  left: 639px;
+  width: 162px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-buttonbackground1 {
+  top: 0px;
+  left: 0px;
+  width: 162px;
+  height: 44px;
+  position: absolute;
+  border-radius: 22px;
+}
+ 
+.school-page-text25 {
+  top: 13px;
+  left: 21.5px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-dot1 {
+  top: 168px;
+  left: 164px;
+  width: 257px;
+  height: 153px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text26 {
+  top: 101px;
+  left: 22.5px;
+  color: rgba(255, 255, 255, 1);
+  width: 212px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text27 {
+  top: 62px;
+  left: 0.5px;
+  color: rgba(255, 255, 255, 1);
+  width: 256px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-smile2 {
+  top: 0.02783999964594841px;
+  left: 106.71065521240234px;
+  width: 43.666015625px;
+  height: 35.353187561035156px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-path13 {
+  top: 0px;
+  left: 5.2831034660339355px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path14 {
+  top: 0px;
+  left: 27.741342544555664px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path15 {
+  top: 24.793750762939453px;
+  left: 0px;
+  width: 43px;
+  height: 11px;
+  position: absolute;
+}
+ 
+.school-page-dot2 {
+  top: 168px;
+  left: 448px;
+  width: 257px;
+  height: 153px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text28 {
+  top: 101px;
+  left: 18px;
+  color: rgba(255, 255, 255, 1);
+  width: 221px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text29 {
+  top: 62px;
+  left: 0.5px;
+  color: rgba(255, 255, 255, 1);
+  width: 256px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-smile3 {
+  top: 0.02783999964594841px;
+  left: 106.71065521240234px;
+  width: 43.666015625px;
+  height: 35.353187561035156px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-path16 {
+  top: 0px;
+  left: 5.2831034660339355px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path17 {
+  top: 0px;
+  left: 27.741342544555664px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path18 {
+  top: 24.793750762939453px;
+  left: 0px;
+  width: 43px;
+  height: 11px;
+  position: absolute;
+}
+ 
+.school-page-dot3 {
+  top: 168px;
+  left: 733px;
+  width: 257px;
+  height: 153px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text30 {
+  top: 101px;
+  left: 21px;
+  color: rgba(255, 255, 255, 1);
+  width: 215px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text31 {
+  top: 62px;
+  left: 0.5px;
+  color: rgba(255, 255, 255, 1);
+  width: 256px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-smile4 {
+  top: 0.02783999964594841px;
+  left: 106.71065521240234px;
+  width: 43.666015625px;
+  height: 35.353187561035156px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-path19 {
+  top: 0px;
+  left: 5.2831034660339355px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path20 {
+  top: 0px;
+  left: 27.741342544555664px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path21 {
+  top: 24.793750762939453px;
+  left: 0px;
+  width: 43px;
+  height: 11px;
+  position: absolute;
+}
+ 
+.school-page-dot4 {
+  top: 168px;
+  left: 1019px;
+  width: 257px;
+  height: 153px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text32 {
+  top: 101px;
+  left: 21px;
+  color: rgba(255, 255, 255, 1);
+  width: 215px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text33 {
+  top: 62px;
+  left: 0.5px;
+  color: rgba(255, 255, 255, 1);
+  width: 256px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 26px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-smile5 {
+  top: 0.02783999964594841px;
+  left: 106.71065521240234px;
+  width: 43.666015625px;
+  height: 35.353187561035156px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-path22 {
+  top: 0px;
+  left: 5.2831034660339355px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path23 {
+  top: 0px;
+  left: 27.741342544555664px;
+  width: 9px;
+  height: 14px;
+  position: absolute;
+}
+ 
+.school-page-path24 {
+  top: 24.793750762939453px;
+  left: 0px;
+  width: 43px;
+  height: 11px;
+  position: absolute;
+}
+ 
+.school-page-part2tutorials {
+  top: 1572px;
+  left: 106px;
+  width: 1228px;
+  height: 450px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text34 {
+  left: 482px;
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Light;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text35 {
+  color: rgba(7, 22, 41, 1);
+  font-weight: 300;
+}
+ 
+.school-page-text36 {
+  color: rgba(193, 112, 255, 1);
+}
+ 
+.school-page-text37 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+}
+ 
+.school-page-tuto1 {
+  top: 115px;
+  left: 58px;
+  width: 255px;
+  height: 335px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-background3 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.school-page-avatar1 {
+  top: 261px;
+  left: 13px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask10 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-image11 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-text39 {
+  top: 263px;
+  left: 56px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text40 {
+  top: 297px;
+  left: 199px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: right;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-rating1 {
+  top: 305px;
+  left: 13px;
+  width: 107px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-star11 {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star21 {
+  top: 0px;
+  left: 23px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star31 {
+  top: 0px;
+  left: 46px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star41 {
+  top: 0px;
+  left: 69px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star51 {
+  top: 0px;
+  left: 92px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-text41 {
+  top: 199.60000610351562px;
+  left: 13px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 242px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text42 {
+  top: 172px;
+  left: 13px;
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-preview1 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(215, 215, 215, 1);
+}
+ 
+.school-page-mask11 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  position: absolute;
+  border-radius: 5px 5px 0 0;
+}
+ 
+.school-page-bitmap1 {
+  top: -289px;
+  left: -353px;
+  width: 821px;
+  height: 1232px;
+  position: absolute;
+}
+ 
+.school-page-play1 {
+  top: 45px;
+  left: 96px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-oval1 {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 64px;
+  opacity: 0.86;
+  position: absolute;
+}
+ 
+.school-page-triangle1 {
+  top: 24.5px;
+  left: 40.5px;
+  width: 16px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.school-page-tuto2 {
+  top: 115px;
+  left: 344px;
+  width: 255px;
+  height: 335px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-background4 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.school-page-avatar2 {
+  top: 261px;
+  left: 13px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask12 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-image12 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-text43 {
+  top: 263px;
+  left: 56px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text44 {
+  top: 297px;
+  left: 199px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: right;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-rating2 {
+  top: 305px;
+  left: 13px;
+  width: 107px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-star12 {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star22 {
+  top: 0px;
+  left: 23px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star32 {
+  top: 0px;
+  left: 46px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star42 {
+  top: 0px;
+  left: 69px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star52 {
+  top: 0px;
+  left: 92px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-text45 {
+  top: 199.60000610351562px;
+  left: 13px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 242px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text46 {
+  top: 172px;
+  left: 13px;
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-preview2 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(215, 215, 215, 1);
+}
+ 
+.school-page-mask13 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  position: absolute;
+  border-radius: 5px 5px 0 0;
+}
+ 
+.school-page-bitmap2 {
+  top: -232px;
+  left: -147px;
+  width: 402px;
+  height: 603px;
+  position: absolute;
+}
+ 
+.school-page-play2 {
+  top: 45px;
+  left: 96px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-oval2 {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 64px;
+  opacity: 0.86;
+  position: absolute;
+}
+ 
+.school-page-triangle2 {
+  top: 24.5px;
+  left: 40.5px;
+  width: 16px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.school-page-tuto3 {
+  top: 115px;
+  left: 629px;
+  width: 255px;
+  height: 335px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-background5 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.school-page-avatar3 {
+  top: 261px;
+  left: 13px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask14 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-image13 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-text47 {
+  top: 263px;
+  left: 56px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text48 {
+  top: 297px;
+  left: 199px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: right;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-rating3 {
+  top: 305px;
+  left: 13px;
+  width: 107px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-star13 {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star23 {
+  top: 0px;
+  left: 23px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star33 {
+  top: 0px;
+  left: 46px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star43 {
+  top: 0px;
+  left: 69px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star53 {
+  top: 0px;
+  left: 92px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-text49 {
+  top: 199.60000610351562px;
+  left: 13px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 242px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text50 {
+  top: 172px;
+  left: 13px;
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-preview3 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(215, 215, 215, 1);
+}
+ 
+.school-page-mask15 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  position: absolute;
+  border-radius: 5px 5px 0 0;
+}
+ 
+.school-page-bitmap3 {
+  top: -119px;
+  left: -3.6666667461395264px;
+  width: 261px;
+  height: 391px;
+  position: absolute;
+}
+ 
+.school-page-play3 {
+  top: 45px;
+  left: 96px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-oval3 {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 64px;
+  opacity: 0.86;
+  position: absolute;
+}
+ 
+.school-page-triangle3 {
+  top: 24.5px;
+  left: 40.5px;
+  width: 16px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.school-page-tuto4 {
+  top: 115px;
+  left: 914px;
+  width: 255px;
+  height: 335px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-background6 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 335px;
+  position: absolute;
+  border-radius: 5px;
+}
+ 
+.school-page-avatar4 {
+  top: 261px;
+  left: 13px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask16 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-image14 {
+  top: 0px;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+ 
+.school-page-text51 {
+  top: 263px;
+  left: 56px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text52 {
+  top: 297px;
+  left: 199px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: right;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-rating4 {
+  top: 305px;
+  left: 13px;
+  width: 107px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-star14 {
+  top: 0px;
+  left: 0px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star24 {
+  top: 0px;
+  left: 23px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star34 {
+  top: 0px;
+  left: 46px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star44 {
+  top: 0px;
+  left: 69px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-star54 {
+  top: 0px;
+  left: 92px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+}
+ 
+.school-page-text53 {
+  top: 199.60000610351562px;
+  left: 13px;
+  color: rgba(7, 22, 41, 0.5015843510627747);
+  width: 242px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text54 {
+  top: 172px;
+  left: 13px;
+  color: rgba(7, 22, 41, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-preview4 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(215, 215, 215, 1);
+}
+ 
+.school-page-mask17 {
+  top: 0px;
+  left: 0px;
+  width: 255px;
+  height: 154px;
+  position: absolute;
+  border-radius: 5px 5px 0 0;
+}
+ 
+.school-page-bitmap4 {
+  top: -119px;
+  left: -3.6666667461395264px;
+  width: 261px;
+  height: 391px;
+  position: absolute;
+}
+ 
+.school-page-bitmap5 {
+  top: -105px;
+  left: -110.5px;
+  width: 546px;
+  height: 364px;
+  position: absolute;
+}
+ 
+.school-page-play4 {
+  top: 45px;
+  left: 96px;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-oval4 {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 64px;
+  opacity: 0.86;
+  position: absolute;
+}
+ 
+.school-page-triangle4 {
+  top: 24.5px;
+  left: 40.5px;
+  width: 16px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.school-page-part1testimonials {
+  top: 1093px;
+  left: -1px;
+  width: 1440px;
+  height: 392px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-background7 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 392px;
+  position: absolute;
+}
+ 
+.school-page-testimonial {
+  top: 108px;
+  left: 260px;
+  width: 943px;
+  height: 160px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-avatar5 {
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask18 {
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+}
+ 
+.school-page-bitmap6 {
+  top: -25px;
+  left: -117px;
+  width: 394px;
+  height: 341px;
+  position: absolute;
+}
+ 
+.school-page-text55 {
+  top: 2px;
+  left: 213px;
+  width: 730px;
+  height: 158px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text56 {
+  top: 124px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: italic;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 33.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text57 {
+  top: 90px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: 33.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text58 {
+  top: 7.105427357601002e-15px;
+  color: rgba(255, 255, 255, 1);
+  width: 730px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 33.599998474121094px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-mainpart {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1093px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-background8 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1093px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask19 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 1093px;
+  position: absolute;
+}
+ 
+.school-page-object {
+  top: -66px;
+  left: -4.075067043304443px;
+  width: 1448.150146484375px;
+  height: 1055px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.school-page-bitmap7 {
+  top: 0px;
+  left: 0px;
+  width: 1448px;
+  height: 1055px;
+  position: absolute;
+}
+ 
+.school-page-bitmap8 {
+  top: 0px;
+  left: 0px;
+  width: 1448px;
+  height: 1055px;
+  position: absolute;
+}
+ 
+.school-page-text59 {
+  top: 220px;
+  left: 377px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 120px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text60 {
+  top: 361px;
+  left: 593px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text61 {
+  top: 361px;
+  left: 704px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text62 {
+  top: 361px;
+  left: 797px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-button2 {
+  top: 419px;
+  left: 639px;
+  width: 162px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-buttonbackground2 {
+  top: 0px;
+  left: 0px;
+  width: 162px;
+  height: 44px;
+  position: absolute;
+  border-radius: 22px;
+}
+ 
+.school-page-text63 {
+  top: 13px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Semibold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text64 {
+  top: 631px;
+  left: 604px;
+  color: rgba(193, 112, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text65 {
+  color: rgba(193, 112, 255, 1);
+}
+ 
+.school-page-text66 {
+  font-weight: 700;
+}
+ 
+.school-page-pros {
+  top: 758px;
+  left: 217px;
+  width: 1009px;
+  height: 237px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-pro4 {
+  top: 0px;
+  left: 859px;
+  width: 150px;
+  height: 237px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text68 {
+  top: 160px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 900;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text69 {
+  top: 189px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-avatar6 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask20 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-image8 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-pro3 {
+  top: 0px;
+  left: 570px;
+  width: 150px;
+  height: 237px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text70 {
+  top: 160px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 900;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text71 {
+  top: 189px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-avatar7 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask21 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-image7 {
+  top: 0.15000000596046448px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-pro2 {
+  top: 0px;
+  left: 289px;
+  width: 150px;
+  height: 237px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text72 {
+  top: 160px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 900;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text73 {
+  top: 189px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-avatar8 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask22 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-image6 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-pro1 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 237px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text74 {
+  top: 160px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Black;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 900;
+  line-height: 27px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text75 {
+  top: 189px;
+  color: rgba(255, 255, 255, 1);
+  width: 150px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-avatar9 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-mask23 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-image15 {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+ 
+.school-page-header {
+  top: 35.02320098876953px;
+  left: 171.5922088623047px;
+  width: 1103.4078369140625px;
+  height: 29.46099090576172px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-logo2 {
+  top: 0px;
+  left: 0px;
+  width: 167.01577758789062px;
+  height: 29.46099090576172px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.school-page-smile-school {
+  top: 6.5208001136779785px;
+  left: 55.181785583496094px;
+  width: 112px;
+  height: 13px;
+  position: absolute;
+}
+ 
+.school-page-path25 {
+  top: 0px;
+  left: 4.402585983276367px;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+}
+ 
+.school-page-path26 {
+  top: 0px;
+  left: 23.11778450012207px;
+  width: 8px;
+  height: 12px;
+  position: absolute;
+}
+ 
+.school-page-path27 {
+  top: 20.661460876464844px;
+  left: 0px;
+  width: 36px;
+  height: 9px;
+  position: absolute;
+}
+ 
+.school-page-menu {
+  top: 1.9767999649047852px;
+  left: 869.4077758789062px;
+  width: 234px;
+  height: 15px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.school-page-text76 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text77 {
+  left: 102px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.school-page-text78 {
+  left: 200px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
