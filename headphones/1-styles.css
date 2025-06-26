@@ -1,36 +1,51 @@
-
-.services {
-  display: flex;
-  gap: 2rem;
-  padding: 2rem;
-  justify-content: space-around;
-  flex-wrap: wrap;
+.results {
+  background-color: #f9f9f9;
   text-align: center;
+  padding: 4rem 2rem;
 }
 
-.service-card {
-  background: #fff;
-  border-radius: 10px;
+.results h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.results p {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  color: #555;
+}
+
+.result-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.result-card {
+  background: white;
   padding: 2rem;
-  max-width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  width: 200px;
 }
 
-.service-card i {
-  font-size: 48px;
+.result-card i {
+  font-size: 40px;
   color: #ff6565;
   margin-bottom: 1rem;
 }
 
-.service-card h3 {
-  font-size: 1.5rem;
+.result-card h3 {
+  font-size: 1.8rem;
   margin-bottom: 0.5rem;
 }
 
-.service-card p {
-  font-size: 1rem;
+.result-card p {
   color: #666;
+  font-size: 1rem;
 }
+
 
 @media (max-width: 480px) {
   .services {
