@@ -125,6 +125,7 @@ body {
   color: #fff;
   padding: 2rem 1rem;
   text-align: center;
+  margin-top: 9rem;
 }
 
 .footer-content {
@@ -241,33 +242,23 @@ body {
 }
 
 .results {
-  background-color: #f9f9f9;
   text-align: center;
   padding: 4rem 2rem;
   background: url('images/headphones_hero_2.jpg') no-repeat center center/cover;
   display: block;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
   height: 72vh;
   color: #fff;
 }
-
+.para{
+    margin-bottom: 7rem;
+}
 .results h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
-
-.results p {
-  font-size: 1rem;
-  margin-bottom: 3rem;
-}
-
-.para {
-  margin-right: 20rem;
-  margin-left: 20rem;
-}
-
+ 
 .result-cards {
   display: flex;
   flex-wrap: wrap;
@@ -276,28 +267,55 @@ body {
 }
 
 .result-card {
-  background: #ff6565;
-  ;
+  background: white;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
   width: 200px;
-}
-
-.result-card i {
-  font-size: 40px;
-  color: #ff6565;
-  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 .result-card h3 {
-  font-size: 1.8rem;
+  font-size: 2rem;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
+  color: #0c0c1d;
 }
 
 .result-card p {
-  color: #ffffff;
+  color: #666;
   font-size: 1rem;
+}
+
+/* Draw a pentagon using clip-path */
+.pentagon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #ff6565;
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
+}
+
+
+/* Draw a pentagon using clip-path */
+.pentagon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background-color: #ff6565;
+  clip-path: polygon(
+    50% 0%,
+    100% 38%,
+    82% 100%,
+    18% 100%,
+    0% 38%
+  );
 }
 
 /* Responsive */
@@ -375,4 +393,13 @@ body {
   .results {
     height: 126vh;
   }
+    .result-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .result-card {
+    width: 90%;
+  }
 }
+ 
