@@ -36,7 +36,7 @@ body {
   height: 40px;
 }
 
-.menu-toggle {
+.hamburger {
   background: none;
   border: none;
   font-size: 2rem;
@@ -44,15 +44,17 @@ body {
   cursor: pointer;
   display: none;
 }
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  margin-left: 2rem;
-  font-weight: 600;
-  transition: color 0.3s;
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
 }
-
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
 .nav-links a:hover,
 .nav-links a:active {
   color: #FF6565;
@@ -349,21 +351,39 @@ body {
     align-items: flex-start;
   }
 
-  .menu-toggle {
-    display: flex;
-  }
-
-  .header.active .nav-links {
-    display: flex;
-  }
-
-  .nav-links {
-    margin-top: 1rem;
+  .nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #0c0c1d;
     display: none;
-    flex-direction: column;
-    gap: 0.5rem;
+    padding: 1rem 0;
   }
-
+  .nav.open {
+    display: block;
+    animation: fadeIn 0.3s ease;
+    position: static;
+    margin: auto;
+  }
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+   .hamburger {
+    display: flex;
+  }
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
   .hero {
     background: url('images/headphones_hero_1.jpg') no-repeat center center/cover;
   }
