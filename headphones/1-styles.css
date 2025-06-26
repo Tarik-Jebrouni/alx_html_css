@@ -45,15 +45,73 @@
   color: #666;
   font-size: 1rem;
 }
+.contact {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0c0c1d;
+}
+
+.contact p {
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #ff6565;
+  outline: none;
+}
+
+.submit-btn {
+  background: #ff6565;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.submit-btn:hover,
+.submit-btn:active {
+  opacity: 0.9;
+}
 
 
 @media (max-width: 480px) {
-  .services {
+  .result-cards {
     flex-direction: column;
     align-items: center;
   }
 
-  .service-card {
+  .result-card {
     width: 90%;
   }
 }
