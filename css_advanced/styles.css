@@ -263,3 +263,65 @@ nav a {
   font-size: 13px;
   color: #666;
 }
+.membership {
+  background-color: #071629;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.membership h2 {
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.membership .highlight {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.benefit {
+  max-width: 220px;
+}
+
+.benefit img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.benefit h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.benefit p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.register-btn {
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #a753df;
+}
