@@ -157,3 +157,109 @@ nav a {
   font-style: italic;
   font-size: 16px;
 }
+.popular {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.popular h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: black;
+  font-weight: inherit;
+}
+
+.highlight {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.tutorials {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
+  background: #fff;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.thumb {
+  position: relative;
+}
+
+.thumb img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button i {
+  color: #C271FF;
+  font-size: 18px;
+}
+
+.card h3 {
+  font-size: 16px;
+  margin: 15px 15px 5px;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 0 15px 10px;
+  color: #666;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin: 10px 15px 5px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  color: #C271FF;
+  font-size: 14px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 20px;
+}
+
+.stars i {
+  color: #C271FF;
+  margin-right: 2px;
+}
+
+.duration {
+  font-size: 13px;
+  color: #666;
+}
