@@ -111,3 +111,49 @@ nav a {
   font-size: 14px;
   opacity: 0.8;
 }
+.testimonial {
+  background-color: #C271FF;
+  color: white;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.testimonial-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  max-width: 600px;
+}
+
+.testimonial-text .quote {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonial-text .name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.testimonial-text .role {
+  font-style: italic;
+  font-size: 16px;
+}
