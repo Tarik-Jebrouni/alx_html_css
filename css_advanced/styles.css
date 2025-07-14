@@ -1,11 +1,12 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
 
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
-  background: url('./images/Object.png') no-repeat center/cover;
+  background: url("./images/Object.png") no-repeat center/cover;
+  max-height: 1000px;
 }
 
 .top-bar {
@@ -50,7 +51,7 @@ nav a {
 }
 
 .btn-register {
-  background-color: #C271FF;
+  background-color: #c271ff;
   color: white;
   padding: 15px 30px;
   border-radius: 30px;
@@ -66,9 +67,8 @@ nav a {
 }
 
 .learn {
-  
-    text-align: center;
-    padding: 60px 20px;
+  text-align: center;
+  padding: 60px 20px;
 }
 
 .learn h2 {
@@ -77,7 +77,7 @@ nav a {
 }
 
 .learn .purple {
-  color: #C271FF;
+  color: #c271ff;
   font-weight: 700;
 }
 
@@ -112,7 +112,7 @@ nav a {
   opacity: 0.8;
 }
 .testimonial {
-  background-color: #C271FF;
+  background-color: #c271ff;
   color: white;
   padding: 60px 20px;
   display: flex;
@@ -171,7 +171,7 @@ nav a {
 }
 
 .highlight {
-  color: #C271FF;
+  color: #c271ff;
   font-weight: bold;
 }
 
@@ -214,7 +214,7 @@ nav a {
 }
 
 .play-button i {
-  color: #C271FF;
+  color: #c271ff;
   font-size: 18px;
 }
 
@@ -243,7 +243,7 @@ nav a {
 }
 
 .name {
-  color: #C271FF;
+  color: #c271ff;
   font-size: 14px;
 }
 
@@ -255,7 +255,7 @@ nav a {
 }
 
 .stars i {
-  color: #C271FF;
+  color: #c271ff;
   margin-right: 2px;
 }
 
@@ -276,7 +276,7 @@ nav a {
 }
 
 .membership .highlight {
-  color: #C271FF;
+  color: #c271ff;
   font-weight: bold;
 }
 
@@ -310,7 +310,7 @@ nav a {
 }
 
 .register-btn {
-  background-color: #C271FF;
+  background-color: #c271ff;
   color: white;
   border: none;
   padding: 15px 40px;
@@ -324,4 +324,39 @@ nav a {
 
 .register-btn:hover {
   background-color: #a753df;
+}
+.faq {
+  padding: 80px 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.faq h2 {
+  font-size: 36px;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: lighter;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 151px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-item h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: black;
+}
+
+.faq-item p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
 }
