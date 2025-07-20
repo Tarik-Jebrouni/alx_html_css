@@ -1,0 +1,93 @@
+/* Reset and variables */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff5f7c;
+  --text-color: #fff;
+  --background-overlay: rgba(0, 0, 0, 0.5);
+  --font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Base Styles */
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: #111;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(
+      var(--background-overlay),
+      var(--background-overlay)
+    ),
+    url("./images/headphones_hero_1.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+/* Hero Content */
+.hero-content {
+  text-align: center;
+  margin: auto;
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-content .subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ddd;
+}
