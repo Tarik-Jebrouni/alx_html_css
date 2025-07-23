@@ -1,0 +1,362 @@
+/* Reset and variables */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff5f7c;
+  --text-color: #fff;
+  --background-overlay: rgba(0, 0, 0, 0.5);
+  --font-family: "Helvetica Neue", sans-serif;
+}
+
+/* Base Styles */
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: #111;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(
+      var(--background-overlay),
+      var(--background-overlay)
+    ),
+    url("./images/headphones_hero_1.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+}
+
+/* Hero Content */
+.hero-content {
+  text-align: center;
+  margin: auto;
+  max-width: 700px;
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-content .subtitle {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+/* What We Do Section */
+.services {
+  padding: 80px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.services-intro p {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.service-item {
+  flex: 1 1 150px;
+  max-width: 180px;
+  flex: 1 1 150px;
+  max-width: 180px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeUp 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.service-item img {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.service-item p {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+.service-item img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.service-item:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.service-item:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.service-item:nth-child(4) {
+  animation-delay: 0.9s;
+}
+
+.service-item:hover img {
+  transform: scale(1.2) rotate(5deg);
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Our Results Section (No Image Background) */
+.results {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0a162f 0%, #0f1e3d 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.results-intro p {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Pentagon Container */
+.results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* Pentagon Shape via clip-path */
+.pentagon {
+  width: 140px;
+  height: 130px;
+  background-color: #ff5f7c;
+  clip-path: polygon(
+    50% 0%,
+    /* Top */ 100% 38%,
+    /* Top right */ 82% 100%,
+    /* Bottom right */ 18% 100%,
+    /* Bottom left */ 0% 38% /* Top left */
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 6px 20px rgba(255, 95, 124, 0.3);
+  animation: rise 0.6s ease forwards;
+}
+
+.pentagon:hover {
+  transform: scale(1.05);
+}
+
+.pentagon .value {
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+}
+
+.pentagon .label {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Contact Section */
+.contact {
+  padding: 80px 20px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ff5f7c;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.contact-form .cta-button {
+  align-self: center;
+  padding: 12px 30px;
+  background-color: #ff5f7c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .cta-button:hover {
+  background-color: #e14d68;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Footer */
+.footer {
+  background-color: #06142e;
+  color: #aaa;
+  padding: 30px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  height: 30px;
+}
+
+.brand-name {
+  font-weight: bold;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.footer-center {
+  font-size: 0.9rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.footer-right {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-right a i {
+  font-size: 18px;
+  background-color: white;
+  color: #06142e;
+  border-radius: 50%;
+  padding: 10px;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.footer-right a i:hover {
+  transform: scale(1.1);
+}
